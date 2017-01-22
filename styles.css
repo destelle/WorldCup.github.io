@@ -1,0 +1,53 @@
+
+body { 
+ background-color:lightgreen; 
+  max-width:960px; 
+  min-width: 400px;
+  position: relative;
+  margin:auto;
+  }  
+main {   
+  width:70%;   
+  display:inline;
+  vertical-align: top; 
+  padding:2%;
+
+  
+   } 
+   #stats{
+	 
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+h1{
+	border-style: solid;
+	font-variant: small-caps;
+
+}
+p{
+	
+}
+.test  {
+	background-image: url("redbackground.jpg"); 
+	color:yellow;
+
+}
+a:link{
+	color:red;
+}
+a:visited{
+	color:grey;
+}
+a:hover{
+	color:white;
+}
+
+img {
+  width: 100%;
+}
+@media screen and (max-width: 400px) {
+  body {
+    font-size: small;
+
+}
+}
